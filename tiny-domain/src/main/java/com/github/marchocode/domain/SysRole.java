@@ -25,4 +25,9 @@ public class SysRole extends BaseEntity implements Serializable {
     @ManyToMany(mappedBy = "roles")
     private Set<SysUser> users;
 
+    @ManyToMany
+    @JoinTable(name = "sys_role_menu", joinColumns = @JoinColumn(name = "role_id", referencedColumnName = "role_id"),
+            inverseJoinColumns = @JoinColumn(name = "menu_id", referencedColumnName = "menu_id")
+    )
+    private Set<SysMenu> menus;
 }
