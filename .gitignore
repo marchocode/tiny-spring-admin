@@ -6,7 +6,7 @@ target/
 ### IntelliJ IDEA ###
 .idea/
 mysql/
-
+*.iml
 
 ### Eclipse ###
 .apt_generated
