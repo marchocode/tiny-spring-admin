@@ -5,4 +5,3 @@
 tasks:
   - init: mvn install -DskipTests=true
 
-
