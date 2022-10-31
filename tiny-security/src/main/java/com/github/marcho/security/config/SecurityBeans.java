@@ -9,10 +9,13 @@ public class SecurityBeans {
 
     @Bean
     public CorsFilter corsFilter() {
-        return new CorsFilter()
+        return null;
     }
 
-
+    @Bean
+    public TokenFilter tokenFilter() {
+        return null;
+    }
 
 
 
