@@ -1,6 +1,5 @@
 server:
-  port: 8080
-
+  port: 8899
 
 
 spring:
@@ -8,3 +7,6 @@ spring:
     active: dev
   jpa:
     generate-ddl: on
+logging:
+  level:
+    root: debug

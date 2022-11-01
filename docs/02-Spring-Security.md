@@ -9,6 +9,9 @@
 ### 记录异常
 
 #### Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+检查数据库连接，是否正常
+
+#### query did not return a unique result
 
 ### Reference
 
@@ -16,3 +19,4 @@
 - https://portswigger.net/web-security/csrf
 - https://github.com/jwtk/jjwt
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization
+- https://token.dev/

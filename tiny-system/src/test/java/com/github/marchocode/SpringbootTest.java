@@ -2,8 +2,7 @@ package com.github.marchocode;
 
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+@SpringBootTest()
 public class SpringbootTest {
-
 
 }

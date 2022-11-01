@@ -1,4 +1,4 @@
-package com.github.marcho.security.pojo;
+package com.github.marchocode.security.pojo;
 
 import lombok.Getter;
 import lombok.Setter;
