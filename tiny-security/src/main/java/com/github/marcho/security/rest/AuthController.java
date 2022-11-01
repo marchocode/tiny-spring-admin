@@ -20,10 +20,12 @@ public class AuthController {
     @PostMapping("/login")
     public ResponseEntity login(@Validated @RequestBody AuthUserVO userVO) {
 
-        UsernamePasswordAuthenticationToken authenticationToken = new UsernamePasswordAuthenticationToken(userVO.getUsername(), userVO.getPassword())
+        UsernamePasswordAuthenticationToken authenticationToken = new UsernamePasswordAuthenticationToken(userVO.getUsername(), userVO.getPassword());
         Authentication authenticate = authenticationManagerBuilder.getObject().authenticate(authenticationToken);
 
         SecurityContextHolder.getContext().setAuthentication(authenticate);
+
+        return null;
     }
 
     @DeleteMapping("/logout")

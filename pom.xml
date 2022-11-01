@@ -42,6 +42,13 @@
 
     <dependencyManagement>
         <dependencies>
+
+            <dependency>
+                <groupId>com.github.marchocode</groupId>
+                <artifactId>tiny-security</artifactId>
+                <version>1.0</version>
+            </dependency>
+
             <dependency>
                 <groupId>com.github.marchocode</groupId>
                 <artifactId>tiny-common</artifactId>

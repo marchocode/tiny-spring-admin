@@ -32,8 +32,7 @@
 
         <dependency>
             <groupId>com.github.marchocode</groupId>
-            <artifactId>tiny-domain</artifactId>
-            <version>1.0</version>
+            <artifactId>tiny-security</artifactId>
         </dependency>
 
         <!--Mysql依赖包-->
